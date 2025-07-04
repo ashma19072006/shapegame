@@ -1,0 +1,52 @@
+*{
+    margin:0%;
+    padding:0%;
+    box-sizing:border-box;
+}
+html, body{
+    height:100%;
+    width:100%;
+   
+}
+
+#main{
+    height:100%;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans';
+}
+.shape{
+    margin:10px ;
+    height:150px;
+    width:150px;
+     display:flex;
+    justify-content: center;
+    align-items: center;
+     border:1px solid black;
+}
+#circle{
+border-radius: 50%;
+}
+#diamond
+{
+    margin-top:30px;
+    height:110px;
+    translate:20px;
+    width:110px;
+    rotate:45deg;
+}
+#head{
+    rotate:-45deg;
+}
+ 
+#circle:hover{
+    background-color: green;
+}
+#diamond:hover{
+    background-color:blue;
+}
+#square:hover{
+    background-color: red;
+}
