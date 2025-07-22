@@ -1,1 +1,1 @@
-https://app.netlify.com/projects/shapegam/overview
+https://shapegam.netlify.app/
